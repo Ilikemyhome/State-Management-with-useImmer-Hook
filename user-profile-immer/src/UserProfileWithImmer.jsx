@@ -92,12 +92,13 @@ export default function UserProfileWithImmer() {
           onChange={toggleNewsletterSubscription}
         />
       </label>
+      
 
       <br /><br />
 
       {/* Display Current State */}
       <h3>Current Profile State</h3>
-      <pre style={{ background: "#f4f4f4", padding: "10px" }}>
+      <pre style={{ background: "#16171D", padding: "10px" }}>
         {JSON.stringify(userProfile, null, 2)}
       </pre>
     </div>
