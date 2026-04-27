@@ -26,7 +26,7 @@ Maintain clean, readable component logic.
 
     Performing multiple updates in a row should correctly update all nested fields without overwriting unrelated data.
 
-    ### Edge Test Cases
+### Edge Test Cases
     Entering an empty string for the name should result in an empty name field.
 
     Entering symbols or non‑numeric characters in the phone field should still update the state (no validation is required).
